@@ -1,0 +1,73 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.shape-1{
+background-color: yellow;
+height: 200px;
+width: 200px;
+margin: 15% 15%;
+color: rgb(20, 119, 205);
+clip-path: polygon(50% 0%,100% 100%,0% 100%);
+
+}
+
+.shape-2{
+    height: 200px;
+    background-image: url(im-1.jpg
+    );
+    width: 200px;
+    margin: 15%;
+
+    clip-path: polygon(0% 0%,100% 50%,0% 100%);
+
+}
+
+.shape-3{
+
+    background-image: url(im-2.jpg);
+    height: 200px;
+    width:  200px;
+    margin-left: 15%;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    margin-bottom: 100px
+}
+
+.clipy{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+}
+.parent{
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+
+}
+
+.shape-4{
+    height: 100px;
+    background-color: yellow;
+    width: 100px;
+
+
+text-align: center; 
+ line-height: 100px;
+color: rgb(9, 136, 248);
+font-size: 35px;
+/* transform: rotate(9DEG); */
+
+}
+
+
+.shape-4:hover{
+    cursor: pointer;
+   transition: all 2s linear;
+   
+  transform: rotatey(360deg);
+
+}
